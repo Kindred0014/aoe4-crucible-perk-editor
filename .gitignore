@@ -1,0 +1,19 @@
+# 构建环境 / 中间产物（不入库）
+.buildenv/
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# 本机状态与备份（不入库）
+aoe4_perk_tool_state.json
+aoe4_backups/
+aoe4_perk_mapping.txt
+
+# 本地其他副本 / 临时目录（不入库）
+aoe4-crucible-perk-editor/
+_backup/
+
+# 扫描缓存
+aoe4_perk_cand_*.json
